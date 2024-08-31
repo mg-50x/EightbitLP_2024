@@ -1,0 +1,115 @@
+.s-sec-mainview {
+    width: 100%;
+    height: auto;
+    max-width: 1391px;
+    max-height: 712px;
+    background-image: url('../imgs/gen/1/mv_background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 1391 / 712;
+    margin: 0 auto;
+    align-content: flex-end;
+    user-select: none;
+}
+
+.s-mv-table {
+    width: 100%;
+    height: 92%;
+    display: grid;
+    grid-template-columns: repeat(11, minmax(0px, 126px));
+    grid-template-rows: repeat(8, minmax(0px, 126px));
+    row-gap: 0%;
+    column-gap: 0%;
+}
+
+.s-mv-icon {
+    width: 100%;
+    height: auto;
+    max-width: 126px;
+    max-height: 126px;
+}
+
+.s-mv-table > div > img {
+    width: 100%;
+    height: auto;
+}
+
+/* MV fade */
+.fade-up {
+    animation-name:fadeUpAnime;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+    transform: translateY(100px);
+}
+
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+/* MV animation */
+.s-delay-time03{
+    animation-delay: 0.3s;
+}
+
+.s-delay-time06{
+    animation-delay: 0.6s;
+}
+
+.s-delay-time09{
+    animation-delay: 0.9s;
+}
+
+/* MV icons */
+.s-mv-tipicon {
+    width: 32.859375vw;
+    height: auto;
+    max-width: 459px;
+    max-height: 126px;
+    text-align: center;
+}
+
+.s-mv-tipicon2 {
+    width: 38.5vw;
+    height: auto;
+    max-width: 530px;
+    max-height: 126px;
+}
+
+.s-mv-tipicon3 {
+    width: 28vw;
+    height: auto;
+    max-width: 383px;
+    max-height: 126px;
+}
+
+.s-mv-period {
+    width: 100%;
+    align-self: center;
+    justify-self: stretch;
+    color: rgb(244, 243, 153);
+    padding-top: 1.4vw;
+    padding-left: 1.4vw;
+}
+
+.s-mv-text {
+    width: 100%;
+    font-size: min(1.11vw, 21px);
+    margin: 0;
+    padding: 0;
+}
+
+.s-mv-text-big {
+    width: 100%;
+    font-size: min(3vw, 40px);
+}
+
+.s-sec-overview {
+    
+}
