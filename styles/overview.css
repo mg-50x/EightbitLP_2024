@@ -1,0 +1,20 @@
+.section-header-ja{
+    margin-top: 5vh;
+}
+
+.overview-bg{
+    height: auto;
+    width: 90%;
+    background-color:lightgrey;
+    margin: 2vh auto;
+    padding: 1vh;
+    /* margin-top: ; */
+    border-radius: 20px;
+}
+
+.inner-overview{
+    height: 70px;
+    width: 90%;
+    margin: 2vh auto;
+    background-color: aliceblue;
+}
