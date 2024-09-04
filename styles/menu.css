@@ -1,0 +1,38 @@
+.s-nav-inner {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.s-nav-inner > ul{
+    margin: 0 ;
+    padding: 0 ;
+    display: flex;
+    background-color: #FFF37E;
+    justify-content: space-around;
+}
+
+.s-nav-inner > ul > li {
+    width: auto;
+    height: 5.6vw;
+    align-content: center;
+    list-style: none;
+    display: inline-block;
+    text-wrap: nowrap;
+    font-size: 1.5vw;
+}
+
+nav ul li a:hover{
+    opacity:0.7;
+}
+
+a:hover span.s-up-arrow {
+    position: relative;
+    top: -1px;
+    transition: top 0.3s ease;
+}
+
+a:hover span.s-down-arrow {
+    position: relative;
+    top: 1px;
+    transition: top 0.3s ease;
+}

@@ -1,9 +1,13 @@
 .s-sec-mainview {
+    padding: 10px;
+}
+
+.s-mv-inner {
     width: 100%;
     height: auto;
     max-width: 1391px;
     max-height: 712px;
-    background-image: url('../imgs/gen/1/mv_background.png');
+    background-image: url('../imgs/gen/1/mv_background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 1391 / 712;
@@ -93,7 +97,7 @@ to {
     width: 100%;
     align-self: center;
     justify-self: stretch;
-    color: rgb(244, 243, 153);
+    color: #f4f399;
     padding-top: 1.4vw;
     padding-left: 1.4vw;
 }

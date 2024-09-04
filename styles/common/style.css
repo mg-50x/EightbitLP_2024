@@ -11,3 +11,44 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+/* text */
+.s-text-blue {
+    color: #0C5FE5;
+    text-decoration: none;
+}
+
+.s-text-orange {
+    color: #F4752C;
+    text-decoration: none;
+}
+
+/* arrow */
+.s-up-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 0.5em;
+    height: 0.5em;
+    border: 0.095em solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateY(25%) rotate(-45deg);
+    margin-left: 2.3vw;
+}
+
+/* arrow */
+.s-down-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 0.5em;
+    height: 0.5em;
+    border: 0.095em solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateY(-25%) rotate(135deg);
+    margin-left: 2.3vw;
+}
