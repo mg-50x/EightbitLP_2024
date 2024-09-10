@@ -1,0 +1,60 @@
+.s-about-outer {
+    width: 100%;
+    background-color: #0C5FE5;
+    padding: 3vw 5vw;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.s-about-outer > div > img {
+    width: 13vw;
+    height: auto;
+}
+
+.s-about-inner {
+    display: flex;
+    text-align: left;
+    margin: 5vh 0;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+.s-about-right {
+    width: 50%;
+    color: #FFFFFF;
+    margin: 0 2.8vw;
+    padding: 1vw 0;
+    align-self:center;
+}
+
+.s-about-right > img {
+    width: 100%;
+    height: auto;
+}
+
+.s-about-left {
+    width: 50%;
+    color: #FFFFFF;
+    margin: 0 2.8vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-about-left > H2 {
+    line-height: 3vw;
+    font-size: max(20px, 2.5vw);
+    font-weight: normal;
+}
+
+.s-about-desc {
+    margin-top: 3vh;
+}
+
+.s-about-left > div > p {
+    font-size: max(8px, 1.3vw);
+}
+
+.s-about-btarea {
+    width: 100%;
+    margin-top: auto;
+}

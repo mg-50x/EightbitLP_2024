@@ -4,9 +4,10 @@
     display: inline-block;
 }
 .s-nav-inner > ul{
-    margin: 0 ;
-    padding: 0 ;
+    margin: 0 0;
+    padding: 1vh 1vw;
     display: flex;
+    flex-wrap: wrap;
     background-color: #FFF37E;
     justify-content: space-around;
 }
@@ -14,25 +15,44 @@
 .s-nav-inner > ul > li {
     width: auto;
     height: 5.6vw;
+    margin: 0 1.5vw;
+    font-size: max(12px, 1.4vw);
     align-content: center;
     list-style: none;
     display: inline-block;
+    overflow-wrap: normal;
     text-wrap: nowrap;
-    font-size: 1.5vw;
 }
 
-nav ul li a:hover{
+
+.s-nav-inner > ul > li > a > span {
+    margin-left: 2.3vw;
+}
+
+.s-nav-inner > ul > li > a:hover{
     opacity:0.7;
 }
 
-a:hover span.s-up-arrow {
+.s-nav-inner > ul > li > a:hover span.s-up-arrow {
     position: relative;
     top: -1px;
     transition: top 0.3s ease;
 }
 
-a:hover span.s-down-arrow {
+.s-nav-inner > ul > li > a:hover span.s-down-arrow {
     position: relative;
     top: 1px;
     transition: top 0.3s ease;
+}
+
+@media screen and (min-width:480px) {
+    .s-nav-inner > ul {
+        justify-content: center;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+
+}
+@media screen and (min-width:1024px) {
+
 }

@@ -1,0 +1,8 @@
+.s-sec-how-to-use {
+    user-select: none;
+}
+
+.s-sec-how-to-use > img {
+    width: 100%;
+    height: auto;
+}

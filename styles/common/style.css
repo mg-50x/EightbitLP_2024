@@ -8,8 +8,9 @@ html {
 body {
     width: 100%;
     font-family: "Sawarabi Gothic", sans-serif;
-    font-weight: 400;
+    font-weight: lighter;
     font-style: normal;
+    line-height: 1.7vw;
 }
 
 /* text */
@@ -35,7 +36,6 @@ body {
     border-bottom: 0;
     box-sizing: border-box;
     transform: translateY(25%) rotate(-45deg);
-    margin-left: 2.3vw;
 }
 
 /* arrow */
@@ -50,5 +50,55 @@ body {
     border-bottom: 0;
     box-sizing: border-box;
     transform: translateY(-25%) rotate(135deg);
-    margin-left: 2.3vw;
+}
+
+
+.s-button {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: #333333 solid 3px;
+    border-radius: 30px;
+    box-shadow: 11px 10px 1px #33333380;
+    padding: 0.8em 1em 0.8em 1.5em;
+    font-size: 1.8vw;
+    user-select: none;
+    text-decoration: none;
+}
+
+.s-button:hover {
+    box-shadow: 6px 5px 1px #33333380;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    transition: top 0.3s ease;
+}
+
+.s-button > p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vw;
+    font-size: 1.2vw;
+}
+
+.s-button:hover {
+    box-shadow: 0px;
+}
+
+.s-button > p > span {
+    width: 0.7em;
+    height: 0.7em;
+}
+
+.s-list-style {
+    font-size: 1.5vw;
+}
+
+.s-list-style:before {
+	content:'●';
+	color: #000000;
 }
