@@ -2,19 +2,171 @@
     margin-top: 5vh;
 }
 
+#overview-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    line-height:1.4em;
+}
+
 .overview-bg{
     height: auto;
-    width: 90%;
+    width: 100%;
     background-color:#F5F5F5;
-    margin: 2vh auto;
-    padding: 1vh;
+    /* margin: 2vh auto; */
+    padding: 4vw;
     /* margin-top: ; */
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .inner-overview{
-    height: 70px;
+    height: auto;
     width: 90%;
-    margin: 2vh auto;
-    background-color: aliceblue;
+    margin: 2vw auto;
+    /* background-color: aliceblue; */
+    text-align: left;
+}
+
+.overview-header{
+    color: blue;
+    font-weight: 200;
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
+}
+
+.overview-description-area{
+    margin-top: 1vw;
+    display: flex;
+}
+
+.yellow-underline{
+    text-decoration: underline; /* 下線 */
+    text-decoration-thickness: 0.5em; /* 線の太さ */
+    text-decoration-color: rgba(255, 228, 0, 0.4); /* 線の色 */
+    text-underline-offset: -0.2em; /* 線の位置。テキストに重なるようにやや上部にする */
+    text-decoration-skip-ink: none; /* 下線と文字列が重なる部分でも下線が省略されない（線が途切れない） */
+}
+
+.check-area{
+    vertical-align: top;
+}
+
+#check-mark{
+    /* content: '';
+    border-left: 2px solid #080808;
+    border-bottom: 2px solid #080808;
+    transform: rotate(-45deg); */
+    /* margin-top: 0.2vh; */
+    /* margin-right: 1vw; */
+    width: 3vw;
+    height: 1vw;
+    
+}
+
+#margin-box{
+    content: '';
+    width: 1.5vw;
+    margin-right: 2vw;
+}
+
+.margin-box-l{
+    content: '';
+    width: 2vw;
+    margin-right: 2vw;
+}
+
+.overview-description-l{
+    font-size: large;
+}
+
+.overview-description-s{
+    font-size: medium;
+}
+
+.overview-caution{
+    font-size: medium;
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+.overview-numbering{
+    padding-left:5.4vw;
+    text-indent:-1.6em;
+    width: 80%;
+}
+
+.overview-condition{
+    height: auto;
+    width: 39%;
+    background-color:#F5F5F5;
+    margin-top: 3vw;
+    padding: 4vw;
+    /* margin-top: ; */
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+#overview-condition2{
+    /* height: 60%; */
+}
+
+#pc_man_img{
+    position: relative;
+    top: 4vh;
+    left: 10px;
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 800px) {
+    /* 画面サイズが640px以下に適用 */
+
+    #pc_man_img{
+        display: none;
+    }
+
+    .overview-description-l{
+        font-size: small;
+    }
+    
+    .overview-description-s{
+        font-size: small;
+    }
+    
+    .overview-caution{
+        font-size: smaller;
+        margin-left: 2vw;
+    }
+
+    .overview-numbering{
+        font-size: smaller;
+        margin-left: 6vw;
+    }
+
+    #overview-wrapper{
+        display: block;
+        width: 92%;
+    }
+
+    .overview-condition{
+        width: auto;
+    }
+
+    .overview-bg{
+        width: auto;
+    }
+
+    .overview-header{
+        font-size: 4.5vw;
+        margin-bottom: 5vw;
+    }
+    #check-mark{
+        width: 6vw;
+        height: 2vw;        
+    }
 }
