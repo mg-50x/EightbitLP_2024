@@ -52,7 +52,7 @@ body {
     transform: translateY(-25%) rotate(135deg);
 }
 
-
+/** Button Style **/
 .s-button {
     width: fit-content;
     height: fit-content;
@@ -60,9 +60,9 @@ body {
     color: #333333;
     background-color: #FFFFFF;
     border: #333333 solid 3px;
-    border-radius: 30px;
+    border-radius: 50px;
     box-shadow: 11px 10px 1px #33333380;
-    padding: 0.8em 1em 0.8em 1.5em;
+    padding: 0.6em 1em 0.6em 1.5em;
     font-size: 1.8vw;
     user-select: none;
     text-decoration: none;
@@ -94,11 +94,71 @@ body {
     height: 0.7em;
 }
 
-.s-list-style {
+/** H3 Style **/
+.s-list-style3 {
     font-size: 1.5vw;
+    font-weight: normal;
+    font-style: normal;
 }
 
-.s-list-style:before {
+.s-list-style3:before {
 	content:'●';
 	color: #000000;
+}
+
+/** H4 Style **/
+.s-list-style4 {
+    font-size: 1.2vw;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.s-list-style4:before {
+	content:'●';
+	color: #000000;
+}
+
+/** list **/
+ul {
+    text-align: left;
+    font-size: 1vw;
+}
+
+ul li::marker {
+    color: #000000;
+    font-size: 0.6rem;
+}
+
+ul li {
+    text-indent: -0.3em;
+}
+
+/** tooltip **/
+.bubble-top {
+    position: relative;
+    display: inline-block;
+    margin: 1.3em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: 16px;
+    border-radius: 7px;
+    text-align: center;
+    background: #FFF37E;
+    user-select: none;
+}
+
+.bubble-top:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 10%;
+    margin-left: -0px;
+    border: 5px solid transparent;
+    border-bottom: 25px solid #FFF37E;
+}
+
+.bubble-top p {
+    margin: 0;
+    padding: 0;
 }

@@ -1,7 +1,7 @@
 .s-jobs-outer {
     width: 90vw;
     background-color: #0D5FE5;
-    padding: 3vw 20vw;
+    padding: 3vw 18vw;
     box-sizing: border-box;
     border-radius: 40px;
     margin: 4vw auto;
@@ -20,7 +20,7 @@
     font-size: 1vw;
 }
 
-.s-jobs-inner > H3 {
+.s-jobs-inner .s-list-style3{
     margin-bottom: 2.8vh;
 }
 
@@ -70,6 +70,7 @@
     background-color: #fff;
     border-radius: 0px 0px 3px 3px;
     color: #0D5FE5;
+    opacity: 0;
 }
 
 .s-jobs-tab label:has(:checked) {
@@ -81,8 +82,49 @@
 
 .s-jobs-tab label:has(:checked) + div {
     display: block;
+    animation-name: fadeIn;
+    animation-fill-mode:forwards;
+    animation-duration:0.5s;
+}
+
+/*フェードインアニメ*/
+@keyframes fadeIn{
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    100% {
+      opacity: 1;
+    }
 }
 
 .s-jobs-tab-contents {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5vw;
+    line-height: 5.5vh;
+}
 
+.s-jobs-tab-contents > ul {
+    margin-bottom: 2vh;
+}
+
+.s-jobs-tab-condition {
+    width: 20vw;
+    text-align: left;
+}
+
+.s-jobs-tab-condition .bubble-top {
+    width: 10vw;
+    font-size: 1vw;
+}
+
+.s-jobs-bottom {
+    display: flex;
+    font-size: 0.9vw;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    text-align: left;
 }
