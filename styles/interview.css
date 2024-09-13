@@ -1,0 +1,65 @@
+.s-interview-inner {
+    width: 90vw;
+    background-color: #FFF37E;
+    padding: 8vh 10vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: 4vw auto;
+}
+
+.s-interview-left > div {
+    margin: 3.5vh 0;
+    font-size: 1.2vw;
+}
+
+.s-interview-left > .s-button {
+    width: 23vw;
+    margin: 0 auto;
+    box-shadow: 0.4em 0.4em 1px #D34E00;
+}
+
+.s-interview-left > .s-button:hover {
+    box-shadow: 0.1em 0.1em 1px #D34E00;
+}
+
+.s-interview-left > H2 {
+    color: #F4752C;
+} 
+
+.s-interview-right > img {
+    width: 23vw;
+    height: auto;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-interview-inner {
+        flex-direction: column;
+    }
+
+    .s-interview-left > H2 {
+        font-size: large;
+    }
+
+    .s-interview-left > div {
+        margin: 3vh 0;
+        font-size: small;
+        line-height: 1.3em;
+    }
+
+    .s-interview-right > img {
+        width: 80%;
+        height: auto;
+    }
+
+    .s-interview-left > .s-button {
+        margin: 0 auto;
+    }
+
+}

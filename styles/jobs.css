@@ -1,7 +1,7 @@
 .s-jobs-outer {
     width: 90vw;
     background-color: #0D5FE5;
-    padding: 3vw 18vw;
+    padding: 8vw 18vw;
     box-sizing: border-box;
     border-radius: 40px;
     margin: 4vw auto;
@@ -10,7 +10,6 @@
 .s-jobs-outer > img {
     width: 8vw;
     height: auto;
-    margin: 3vw 0;  
 }
 
 .s-jobs-inner {
@@ -21,7 +20,7 @@
 }
 
 .s-jobs-inner .s-list-style3{
-    margin-bottom: 2.8vh;
+    margin-bottom: 1em;
 }
 
 .s-jobs-tab {
@@ -66,7 +65,7 @@
 .s-jobs-tab > div {
     display: none;
     width: 100%;
-    padding: 1.5em 1em;
+    padding: 5em 1vw 5em 1vw;
     background-color: #fff;
     border-radius: 0px 0px 3px 3px;
     color: #0D5FE5;
@@ -90,34 +89,35 @@
 /*フェードインアニメ*/
 @keyframes fadeIn{
     0% {
-      opacity: 0;
-      transform: translateY(-10px);
+        pacity: 0;
+        transform: translateY(-10px);
     }
 
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }
 
 .s-jobs-tab-contents {
     display: flex;
     flex-direction: row;
-    padding: 0 5vw;
-    line-height: 5.5vh;
+    line-height: 4vw;
+    justify-content: center;
 }
 
 .s-jobs-tab-contents > ul {
+    width: 100% ;
     margin-bottom: 2vh;
 }
 
 .s-jobs-tab-condition {
-    width: 20vw;
-    text-align: left;
+    width: 80%;
 }
 
 .s-jobs-tab-condition .bubble-top {
     width: 10vw;
     font-size: 1vw;
+    line-height: normal;
 }
 
 .s-jobs-bottom {
@@ -127,4 +127,74 @@
     justify-content: space-around;
     color: #FFFFFF;
     text-align: left;
+}
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-jobs-outer {
+        padding: 5vh 7vw 1vh 7vw;
+    }
+
+    .s-jobs-inner {
+        font-size: small;
+        line-height: normal;
+        margin: 3vh 0;
+    }
+
+    .s-jobs-inner > p {
+        margin-left: 3.2vw;
+    }
+
+    .s-jobs-tab > label {
+        font-size: small;
+    }
+
+    .s-jobs-outer > img {
+        width: 28vw;
+        height: auto;
+    }
+
+    .s-jobs-tab-contents {
+        display: block;
+        line-height: 1.8em;
+        width: min-content;
+        margin: 0 auto;
+    }
+
+    .s-jobs-cond700 {
+        margin-left: 5.3vw;
+    }
+
+    .s-jobs-tab-condition {
+        display: flex;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+
+    .s-jobs-tab-condition > .bubble-top {
+        width: 2em;
+        height: fit-content;
+    }
+
+    .s-jobs-tab-condition > .bubble-top > p {
+        width: fit-content;
+    }
+
+    .s-jobs-tab-contents > ul {
+        width: 13em;
+        padding-left: 2.5em;
+    }
+
+    .s-jobs-bottom {
+        display: block;
+        font-size: x-small;
+        line-height: normal;
+    }
+
+    .s-jobs-bottom > .s-button{
+        margin: 0 auto;
+    }
+
 }

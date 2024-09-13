@@ -8,7 +8,7 @@ html {
 body {
     width: 100%;
     font-family: "Sawarabi Gothic", sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: normal;
     line-height: 1.7vw;
 }
@@ -54,26 +54,27 @@ body {
 
 /** Button Style **/
 .s-button {
-    width: fit-content;
+    width: auto;
     height: fit-content;
     display: block;
     color: #333333;
     background-color: #FFFFFF;
-    border: #333333 solid 3px;
+    border: #333333 solid 0.25vw;
     border-radius: 50px;
-    box-shadow: 11px 10px 1px #33333380;
+    box-shadow: 0.4em 0.4em 1px #33333380;
     padding: 0.6em 1em 0.6em 1.5em;
-    font-size: 1.8vw;
     user-select: none;
     text-decoration: none;
+    top: 0px;
+    left: 0px;
 }
 
 .s-button:hover {
-    box-shadow: 6px 5px 1px #33333380;
+    box-shadow: 0.1em 0.1em 1px #33333380;
     position: relative;
-    top: 5px;
-    left: 5px;
-    transition: top 0.3s ease;
+    top: 0.3em;
+    left: 0.3em;
+    transition: all 0.03s ease;
 }
 
 .s-button > p {
@@ -94,8 +95,32 @@ body {
     height: 0.7em;
 }
 
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-button {
+        width: 50vw !important;
+        margin-top: 5vh !important;
+        margin-bottom: 5vh !important;
+        padding: 1em 1em 1em 1.5em;
+    }
+
+    .s-button > p {
+        font-size: small;
+    }
+
+}
+
+/** H2 Style **/
+H2 {
+    font-size: 1.7vw;
+    font-weight: normal;
+    font-style: normal;
+}
+
 /** H3 Style **/
-.s-list-style3 {
+H3 {
     font-size: 1.5vw;
     font-weight: normal;
     font-style: normal;
@@ -106,8 +131,23 @@ body {
 	color: #000000;
 }
 
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    H3 {
+        font-size: medium;
+    }
+
+    H4 {
+        font-size: small;
+    }
+
+}
+
 /** H4 Style **/
-.s-list-style4 {
+H4 {
     font-size: 1.2vw;
     font-weight: normal;
     font-style: normal;
@@ -121,7 +161,7 @@ body {
 /** list **/
 ul {
     text-align: left;
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
 
 ul li::marker {
@@ -133,13 +173,32 @@ ul li {
     text-indent: -0.3em;
 }
 
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    ul {
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    ul li::marker {
+        font-size: 5px;
+    }
+
+    ul li {
+        text-indent: -0.3em;
+    }
+
+}
+
 /** tooltip **/
 .bubble-top {
     position: relative;
     display: inline-block;
     margin: 1.3em 0;
-    padding: 7px 10px;
-    min-width: 120px;
+    padding: 0.5em;
+    text-wrap: nowrap;
+    min-width: min-content;
     max-width: 100%;
     font-size: 16px;
     border-radius: 7px;
@@ -153,7 +212,6 @@ ul li {
     position: absolute;
     top: -25px;
     left: 10%;
-    margin-left: -0px;
     border: 5px solid transparent;
     border-bottom: 25px solid #FFF37E;
 }
@@ -161,4 +219,34 @@ ul li {
 .bubble-top p {
     margin: 0;
     padding: 0;
+}
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .bubble-top {
+        padding: 0.5rem 1.5vw;
+        margin: -0.5em 0 0em 2em;
+        box-sizing: border-box;
+    }
+
+    .bubble-top:before {
+        content: none;
+    }
+
+    .bubble-top:after {
+        content: "";
+        position: absolute;
+        top: 3.3vh;
+        left: -3em;
+        margin-top: -14px;
+        border: 1em solid transparent;
+        border-right: 3em solid #FFF37E;
+        z-index: 1;
+    }
+
+    .bubble-top p {
+        font-size: x-small;
+    }
 }
