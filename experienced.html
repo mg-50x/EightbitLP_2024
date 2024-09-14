@@ -40,10 +40,15 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- Import CSS -->
     <link rel="stylesheet" href="/styles/common/reset.css" />
     <link rel="stylesheet" href="/styles/common/style.css" />
+
+    <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/view.css" />
     <link rel="stylesheet" href="/styles/overview.css" />
     <link rel="stylesheet" href="/styles/menu.css" />
@@ -53,6 +58,9 @@
     <link rel="stylesheet" href="/styles/interview.css" />
     <link rel="stylesheet" href="/styles/flow.css" />
     <link rel="stylesheet" href="/styles/features.css" />
+
+    <link rel="stylesheet" href="/styles/pr.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
 
     <!-- Import JS/jQuery Library -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -64,7 +72,60 @@
   </head>
   <body>
     <!-- START Header Area -->
-    <header></header>
+    <header id="header" class="s-header-hidden">
+      <nav id="header-inner" class="s-header-inner">
+        <img src="./imgs/gen/11/header1.svg" />
+        <div>
+          <div class="s-header-links">
+            <a href="#sec-overview">キャンペーン概要</a>
+            <a href="#sec-nav1">エイトビットとは</a>
+            <a href="#sec-how-to-use">お祝い金の使い道</a>
+            <a href="#sec-jobs">募集職種</a>
+            <a href="#sec-flow">応募の流れ</a>
+            <a href="#sec-features">エイトビットの特徴</a>
+            <a href="#sec-faq">FAQ</a>
+            <a href="" class="s-header-inexperienced-link kiwi-maru-regular">未経験者採用はこちら<span class="s-up-arrow"></span></a>
+          </div>
+          <div class="s-header-buttons">
+            <a href="#sec-jobs" class="s-button s-button-blue">
+              <p>自分に合う募集職種を見る！<span class="s-down-arrow"></span></p>
+            </a>
+            <a href="https://hrmos.co/pages/eightbit20220808/jobs/1963494088175087654" class="s-button s-button-orange">
+              <p>カジュアル面談をする！<span class="s-up-arrow"></span></p>
+            </a>
+          </div>
+          <div class="s-header-sp">
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger">
+              <span></span>
+            </label>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul class="nav__lIst">
+                  <li class="nav__item"><a href="#sec-overview">キャンペーン概要</a></li>
+                  <li class="nav__item"><a href="#sec-about">エイトビットとは</a></li>
+                  <li class="nav__item"><a href="#sec-how-to-use">お祝い金の使い道</a></li>
+                  <li class="nav__item"><a href="#sec-jobs">募集職種</a></li>
+                  <li class="nav__item"><a href="#sec-flow">応募の流れ</a></li>
+                  <li class="nav__item"><a href="#sec-pr">エイトビットの特徴</a></li>
+                  <li class="nav__item"><a href="#sec-faq">FAQ</a></li>
+                  <li class="nav__item_buttons">
+                      <a href="#sec-jobs" class="s-button s-button-blue">
+                        <p>自分に合う募集職種を見る！<span class="s-down-arrow"></span></p>
+                      </a>
+                  </li>
+                  <li class="nav__item_buttons">
+                    <a href="https://hrmos.co/pages/eightbit20220808/jobs/1963494088175087654" class="s-button s-button-orange">
+                      <p>カジュアル面談をする！<span class="s-up-arrow"></span></p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- END Header Area -->
 
     <!-- START Main Area -->
@@ -169,7 +230,7 @@
         </section>
         <!-- END Overview -->
         <!-- START NAV -->
-        <section id="sec-nav" class="s-sec-nav">
+        <section id="sec-nav1" class="s-sec-nav">
           <nav class="s-nav-inner">
               <ul>
                   <li><a href="https://hrmos.co/pages/eightbit20220808/jobs" class="s-text-blue">募集職種をすべて見る！<span class="s-up-arrow"></span></a></li>
@@ -199,6 +260,7 @@
 
               <div class="s-about-right">
                 <img src='imgs/gen/3/about1.svg' />
+                <img src='imgs/gen/3/about2.svg' />
               </div>
             </div>
           </div>
@@ -486,7 +548,7 @@
                 <p>※弊社にて実施するその他キャンペーンとの重複適用はありません</p>
               </div>
               <a href="https://hrmos.co/pages/eightbit20220808/jobs" class="s-button">
-                <p>全ての募集職種を見る<span class="s-down-arrow"></span></p>
+                <p>全ての募集職種を見る<span class="s-up-arrow"></span></p>
               </a>
             </div>
           </div>
@@ -501,8 +563,8 @@
                 <p>リラックスしながらエイトビットメンバーに質問することができます。</p>
                 <p>是非お気軽にご応募ください。</p>
               </div>
-              <a href="https://hrmos.co/pages/eightbit20220808/jobs" class="s-button">
-                <p>カジュアル面談をする！<span class="s-down-arrow"></span></p>
+              <a href="https://hrmos.co/pages/eightbit20220808/jobs" class="s-button s-button-orange">
+                <p>カジュアル面談をする！<span class="s-up-arrow"></span></p>
               </a>
             </div>
             <div class="s-interview-right">
@@ -510,7 +572,7 @@
             </div>
           </div>
         </section>
-        <section id="sec-flow" class="s-sec-flow"></section>
+        <section id="sec-flow" class="s-sec-flow">
           <img id="flow-header" src="./imgs/gen/2/Flow.svg" alt="">
           <div class="s-sec-flow-inner">
             <div class="s-sec-flow-left">
@@ -523,6 +585,7 @@
               </div>
             </div>
           </div>
+        </section>
         <section id="sec-features" class="s-sec-features">
           <img id="features-header" src="./imgs/gen/8/features.svg" alt="">
           <div class="s-sec-features-inner">
@@ -582,14 +645,20 @@
         </section>
         <!-- END NAV -->
         <section id="sec-faq" class="s-sec-faq"></section>
-        <section id="sec-pr" class="s-sec-pr"></section>
+        <section id="sec-pr" class="s-sec-pr">
+          <div class="s-pr-inner">
+            <img src="./imgs/gen/10/pr1.svg" />
+          </div>
+        </section>
       </article>
     </main>
     <!-- END Main Area -->
 
-    <!-- START Footer Area -->
-    <footer></footer>
-    <!-- END Footer Area -->
+    <!-- START Main Area -->
+    <footer>
+      <p>©2024EIGHTBITCo.,Ltd.</p>
+    </footer>
+    <!-- END Main Area -->
 
     <!-- Import JS -->
     <!-- <script src="/common/js/function.js"></script> -->

@@ -31,7 +31,7 @@
 }
 
 .s-jobs-tab > label {
-    height: 3vh;
+    height: 3.5vh;
     padding: .7em 1em .5em;
     border-radius: 5px 5px 0px 0px;
     background-color: #e9f0f6;
@@ -152,8 +152,7 @@
     }
 
     .s-jobs-outer > img {
-        width: 28vw;
-        height: auto;
+        width: auto;
     }
 
     .s-jobs-tab-contents {
@@ -193,8 +192,8 @@
         line-height: normal;
     }
 
-    .s-jobs-bottom > .s-button{
-        margin: 0 auto;
+    .s-jobs-bottom > .s-button {
+        margin: 5vh auto;
     }
 
 }

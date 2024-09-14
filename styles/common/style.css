@@ -3,6 +3,7 @@ html {
     width: 100%;
     height: auto;
     text-align: center;
+    overflow-y: auto;
 }
 
 body {
@@ -11,6 +12,13 @@ body {
     font-weight: 100;
     font-style: normal;
     line-height: 1.7vw;
+}
+
+
+.kiwi-maru-regular {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* text */
@@ -83,7 +91,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 5vw;
-    font-size: 1.2vw;
+    font-size: max(1vw, 11px);
 }
 
 .s-button:hover {
@@ -95,14 +103,21 @@ body {
     height: 0.7em;
 }
 
+.s-button-orange {
+    box-shadow: 0.4em 0.4em 1px #D34E00;
+}
+
+.s-button-blue {
+    box-shadow: 0.4em 0.4em 1px #043FA0;
+}
 
 /* smartphone */
 @media screen and (max-width: 800px) {
 
     .s-button {
-        width: 50vw !important;
-        margin-top: 5vh !important;
-        margin-bottom: 5vh !important;
+        width: 50vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         padding: 1em 1em 1em 1.5em;
     }
 

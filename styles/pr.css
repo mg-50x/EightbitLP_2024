@@ -1,0 +1,23 @@
+.s-sec-pr {
+    width: 100%;
+    padding: 8vw 0;
+}
+
+.s-pr-inner {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.s-pr-inner > img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+    .s-pr-inner {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

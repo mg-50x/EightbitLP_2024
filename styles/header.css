@@ -1,0 +1,224 @@
+header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 98;
+}
+
+.s-header-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    background-color: #FFFFFF;
+}
+
+.s-header-translucent {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.s-header-inner:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.s-header-inner > img {
+    width: 10vw;
+}
+
+.s-header-links {
+    width: fit-content;
+    font-size: 1vw;
+    align-content: center;
+}
+
+.s-header-links > a {
+    color: #333333;
+    text-decoration-line: none;
+    margin-right: 0.5em;
+}
+
+.s-header-links > a:hover {
+    color: #0C5FE5;
+}
+
+.s-header-inexperienced-link > .s-up-arrow {
+    margin-left: 0.5em;
+}
+
+.s-header-inexperienced-link {
+    font-size: 0.9vw;
+    margin-left: 1em;
+}
+
+.s-header-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 0.8em;
+}
+
+.s-header-buttons a {
+    width: auto;
+    margin-right: 1em;
+}
+
+.s-header-buttons .s-button-blue {
+    width: 15vw;
+    min-width: 10em;
+}
+
+.s-header-buttons .s-button-orange {
+    width: 13vw;
+    min-width: 9em;
+}
+
+.s-header-hidden {
+    display: none !important;
+}
+
+.s-header-sp {
+    display: none;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-header-inner {
+        width: 100%;
+        height: 4em;
+        padding: 0 5vw;
+    }
+
+    .s-header-inner > img {
+        width: 20vw;
+    }
+
+    .s-header-buttons, .s-header-links {
+        display: none;
+    }
+
+    .s-header-sp {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="checkbox"] {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .hamburger {
+        display: block;
+        width: 2.5rem;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .hamburger span,
+    .hamburger span::before,
+    .hamburger span::after {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 2px;
+        background-color: #333333;
+        transition: all 0.5s;
+    }
+
+    .hamburger span {
+        width: 100%;
+        z-index: 99;
+    }
+
+    .hamburger span::before {
+        width: 80%;
+        top: -10px;
+    }
+
+    .hamburger span::after {
+        width: 60%;
+        bottom: -10px;
+    }
+
+    input[type="checkbox"]:checked+.hamburger span {
+        background-color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    input[type="checkbox"]:checked+.hamburger span::before {
+        background-color: #FFFFFF;
+        width: 100%;
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    input[type="checkbox"]:checked+.hamburger span::after {
+        background-color: #FFFFFF;
+        width: 100%;
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+
+    .nav {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        border-radius: 10px;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+        background-color: #000000AA;
+    }
+
+    .nav-inner {
+        width: 80%;
+        height: auto;
+        padding: 3em 0;
+        background-color: #0C5FE5;
+        margin-left: auto;
+        transition: all 0.5s;
+    }
+
+    .nav__item a {
+        color: #FFFFFF;
+        text-decoration-line: none;
+        display: block;
+        font-size: 20px;
+        padding: 1em 0 1em 15vw;
+        text-transform: uppercase;
+    }
+
+    .nav__item a:hover {
+        color: #0f5474;
+        background-color: #fff;
+    }
+
+    .nav__item_buttons {
+        margin-left: 13vw;
+        margin-top: 2vh;
+    }
+
+    .nav__item_buttons > .s-button {
+        margin: 0 0 0 0;
+    }
+
+    input[type="checkbox"]:checked ~ .nav {
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.5s;
+    }
+}

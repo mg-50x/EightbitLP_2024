@@ -9,7 +9,7 @@
     justify-content: space-around;
     box-sizing: border-box;
     border-radius: 40px;
-    margin: 4vw auto;
+    margin: 4vw auto 0 auto;
 }
 
 .s-interview-left > div {
@@ -20,7 +20,6 @@
 .s-interview-left > .s-button {
     width: 23vw;
     margin: 0 auto;
-    box-shadow: 0.4em 0.4em 1px #D34E00;
 }
 
 .s-interview-left > .s-button:hover {
@@ -29,7 +28,7 @@
 
 .s-interview-left > H2 {
     color: #F4752C;
-} 
+}
 
 .s-interview-right > img {
     width: 23vw;
@@ -59,7 +58,8 @@
     }
 
     .s-interview-left > .s-button {
-        margin: 0 auto;
+        width: auto;
+        margin: 5vh auto;
     }
 
 }
