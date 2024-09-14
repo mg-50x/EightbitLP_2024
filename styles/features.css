@@ -1,0 +1,147 @@
+#sec-features{
+    padding-top: 5vw;
+    line-height:1.4em;
+    background-color: #dbe9fd;
+}
+
+.s-sec-features-inner{
+    display: flex;
+    padding: 8vh 10vw;
+    padding-top: 0vw;
+    justify-content:center;
+}
+
+#tiktok-area{
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    display: flex;
+    height: 41vw;
+
+}
+
+.tiktok-header, .wantedly-header{
+    color: blue;
+    font-weight: 200;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.wantedly-description{
+    width: 20vw;
+    font-size: small;
+}
+
+.tiktok-description{
+    font-size: small;
+}
+
+.tiktok-anchor{
+
+}
+
+.tiktok-img{
+    width: 20vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+}
+
+#wantedly-area{
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    height: 41vw;
+}
+
+.wantedly-img{
+    width: 22vw;
+}
+
+.features-img-description{
+    font-size: small;
+    width: 20vw;
+}
+
+.s-sec-features-left{
+    margin-right: 1vw;
+}
+
+.s-sec-features-right{
+    margin-left: 1vw;
+}
+
+.features-button{
+    width: 15vw;
+    margin: 0 auto;
+}
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-sec-features-inner{
+        display: block;
+        margin: 4vw;
+        padding: 0;
+    }
+
+    .tiktok-img{
+        width: 43vw;
+    }
+
+    .features-img-description{
+        font-size: x-small;
+        width: 40vw;
+        margin-top: 2vw;
+    }
+
+    #tiktok-area{
+        height: 85vw;
+        justify-content: space-between;
+    }
+
+    .wantedly-description{
+        width: 100%;
+        font-size: small;
+    }
+    #wantedly-area{
+        display:flex;
+        flex-flow: row;
+        justify-content:space-between;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+        height: 41vw;
+    }
+
+    .wantedly-img{
+        width: 43vw;
+    }
+    #sec-features{
+        padding-bottom: 15vw;
+        line-height:0.8em;
+    }
+
+    .s-sec-features-right{
+        margin-top: 5vw;
+        height: 50vh;
+    }
+
+    #features-header{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 40vw;
+    }
+
+    .tiktok-header, .wantedly-header{
+        font-size: 4.5vw;
+        margin-bottom: 5vw;
+    }
+
+    .wantedly-description, .tiktok-description{
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+        line-height:1.6em;
+    }
+}
