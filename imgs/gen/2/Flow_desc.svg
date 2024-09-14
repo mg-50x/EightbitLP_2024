@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="789.375" height="243.899" viewBox="0 0 789.375 243.899">
+  <g id="グループ_10024" data-name="グループ 10024" transform="translate(-230 -6824.413)">
+    <text id="_1" data-name="1" transform="translate(237 6996.413)" fill="#0c5fe5" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">1</tspan></text>
+    <text id="_3" data-name="3" transform="translate(620.873 6996.413)" fill="#0c5fe5" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">3</tspan></text>
+    <text id="_2" data-name="2" transform="translate(429.437 6996.413)" fill="#0c5fe5" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">2</tspan></text>
+    <text id="_4" data-name="4" transform="translate(815.918 6996.413)" fill="#0c5fe5" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">4</tspan></text>
+    <g id="グループ_10023" data-name="グループ 10023">
+      <g id="グループ_9271" data-name="グループ 9271" transform="translate(230.001 6824.413)">
+        <g id="合体_71" data-name="合体 71" transform="translate(-0.001 0)" fill="#fff">
+          <path d="M 174.7742309570312 132.5 L 0.4999923706054688 132.5 L 0.4999923706054688 0.5 L 174.7720642089844 0.5 L 209.4352264404297 67.00315093994141 L 174.7742309570312 132.5 Z" stroke="none"/>
+          <path d="M 0.9999847412109375 1 L 0.9999847412109375 132 L 174.4731140136719 132 L 208.8704681396484 67.00135803222656 L 174.4688568115234 1 L 0.9999847412109375 1 M -1.52587890625e-05 0 L 175.0753173828125 0 L 210 67.00489807128906 L 175.0753173828125 133 L -1.52587890625e-05 133 L -1.52587890625e-05 0 Z" stroke="none" fill="#0c5fe5"/>
+        </g>
+      </g>
+      <g id="グループ_9270" data-name="グループ 9270" transform="translate(422.436 6824.415)">
+        <g id="前面オブジェクトで型抜き_1" data-name="前面オブジェクトで型抜き 1" transform="translate(0 0)" fill="rgba(13,95,229,0.25)">
+          <path d="M 174.4233551025391 132.4985961914062 L 0.5002337694168091 132.4985961914062 L 0.5001516342163086 132.4286651611328 L 35.69287109375 66.38793182373047 L 35.81816101074219 66.15280151367188 L 35.69287109375 65.91767120361328 L 0.8338125348091125 0.5000117421150208 L 174.4246063232422 0.5000117421150208 L 209.8894348144531 66.20425415039062 L 174.4233551025391 132.4985961914062 Z" stroke="none"/>
+          <path d="M 174.1238098144531 131.9985961914062 L 209.3218231201172 66.20532989501953 L 174.1262969970703 1.000011682510376 L 1.666804790496826 1.000011682510376 L 36.38474273681641 66.15280151367188 L 1.295916438102722 131.9985961914062 L 174.1238098144531 131.9985961914062 M 174.72265625 132.9990386962891 L 174.7229309082031 132.9985961914062 L 0.0008203574689105153 132.9985961914062 L 4.567999440041604e-06 132.3040313720703 L 35.25160980224609 66.15280151367188 L 0.0008203574689105153 1.171875010186341e-05 L 174.7229309082031 1.171875010186341e-05 L 210.4570617675781 66.20319366455078 L 174.72265625 132.9990386962891 Z" stroke="none" fill="#0c5fe5"/>
+        </g>
+      </g>
+      <g id="グループ_9859" data-name="グループ 9859" transform="translate(808.918 6824.415)">
+        <g id="前面オブジェクトで型抜き_1-2" data-name="前面オブジェクトで型抜き 1" transform="translate(0 0)" fill="#0c5fe5">
+          <path d="M 174.4233551025391 132.4985961914062 L 0.5002337694168091 132.4985961914062 L 0.5001516342163086 132.4286651611328 L 35.69287109375 66.38793182373047 L 35.81816101074219 66.15280151367188 L 35.69287109375 65.91767120361328 L 0.8338125348091125 0.5000117421150208 L 174.4246063232422 0.5000117421150208 L 209.8894348144531 66.20425415039062 L 174.4233551025391 132.4985961914062 Z" stroke="none"/>
+          <path d="M 174.1238098144531 131.9985961914062 L 209.3218231201172 66.20532989501953 L 174.1262969970703 1.000011682510376 L 1.666804790496826 1.000011682510376 L 36.38474273681641 66.15280151367188 L 1.295916438102722 131.9985961914062 L 174.1238098144531 131.9985961914062 M 174.72265625 132.9990386962891 L 174.7229309082031 132.9985961914062 L 0.0008203574689105153 132.9985961914062 L 4.567999440041604e-06 132.3040313720703 L 35.25160980224609 66.15280151367188 L 0.0008203574689105153 1.171875010186341e-05 L 174.7229309082031 1.171875010186341e-05 L 210.4570617675781 66.20319366455078 L 174.72265625 132.9990386962891 Z" stroke="none" fill="#0c5fe5"/>
+        </g>
+      </g>
+      <g id="グループ_9860" data-name="グループ 9860" transform="translate(615.677 6824.415)">
+        <g id="前面オブジェクトで型抜き_1-3" data-name="前面オブジェクトで型抜き 1" transform="translate(0 0)" fill="rgba(13,95,229,0.65)">
+          <path d="M 174.4233551025391 132.4985961914062 L 0.5002337694168091 132.4985961914062 L 0.5001516342163086 132.4286651611328 L 35.69287109375 66.38793182373047 L 35.81816101074219 66.15280151367188 L 35.69287109375 65.91767120361328 L 0.8338125348091125 0.5000117421150208 L 174.4246063232422 0.5000117421150208 L 209.8894348144531 66.20425415039062 L 174.4233551025391 132.4985961914062 Z" stroke="none"/>
+          <path d="M 174.1238098144531 131.9985961914062 L 209.3218231201172 66.20532989501953 L 174.1262969970703 1.000011682510376 L 1.666804790496826 1.000011682510376 L 36.38474273681641 66.15280151367188 L 1.295916438102722 131.9985961914062 L 174.1238098144531 131.9985961914062 M 174.72265625 132.9990386962891 L 174.7229309082031 132.9985961914062 L 0.0008203574689105153 132.9985961914062 L 4.567999440041604e-06 132.3040313720703 L 35.25160980224609 66.15280151367188 L 0.0008203574689105153 1.171875010186341e-05 L 174.7229309082031 1.171875010186341e-05 L 210.4570617675781 66.20319366455078 L 174.72265625 132.9990386962891 Z" stroke="none" fill="#0c5fe5"/>
+        </g>
+      </g>
+      <text id="ご応募" transform="translate(322 6902.413)" fill="#0c5fe5" font-size="24" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-32.701" y="0">ご応募</tspan></text>
+      <text id="面接日程の_調整" data-name="面接日程の
+調整" transform="translate(538 6887.413)" fill="#0c5fe5" font-size="24" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-57.791" y="0">面接日程の</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"></tspan><tspan x="-24" y="30">調整</tspan></text>
+      <text id="面接実施" transform="translate(728 6902.413)" fill="#fff" font-size="24" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-48" y="0">面接実施</tspan></text>
+      <text id="入社決定" transform="translate(918 6902.413)" fill="#fff" font-size="24" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-48" y="0">入社決定</tspan></text>
+    </g>
+    <text id="ご希望の職種からご応募をお願い致します_" data-name="ご希望の職種からご応募をお願い致します。" transform="translate(251 6977.313)" fill="#333" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="15">ご希望の職種からご応募を</tspan><tspan x="0" y="39">お願い致します。</tspan></text>
+    <text id="面接は1回_場合によっては2回を予定しております_" data-name="面接は1回、場合によっては2回を予定しております。" transform="translate(634.873 6977.313)" fill="#333" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="15">面接は</tspan><tspan y="15" font-family="SegoeUI, Segoe UI">1</tspan><tspan y="15">回、場合によっては</tspan><tspan x="0" y="39" font-family="SegoeUI, Segoe UI">2</tspan><tspan y="39">回を予定しております。</tspan></text>
+    <text id="ご希望の面接方法をお選びください_2営業日以内にご調整をさせて頂きます_" data-name="ご希望の面接方法をお選びください。
+2営業日以内にご調整をさせて頂きます。" transform="translate(443.438 6977.313)" fill="#333" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="15">ご希望の面接方法をお選び</tspan><tspan x="0" y="39">ください。</tspan><tspan y="39" font-family="SegoeUI, Segoe UI"></tspan><tspan font-family="SegoeUI, Segoe UI"><tspan x="0" y="63">2</tspan><tspan y="63" font-family="YuGothicUI-Regular, Yu Gothic UI">営業日以内にご調整をさ</tspan><tspan x="0" y="87" font-family="YuGothicUI-Regular, Yu Gothic UI">せて頂きます。</tspan></tspan></text>
+    <text id="_対面面接_or_web面接_" data-name="(対面面接 or web面接)" transform="translate(525.893 7014.813)" fill="#333" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">(</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">対面面接</tspan><tspan y="0" xml:space="preserve"> or web</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">面接</tspan><tspan y="0">)</tspan></text>
+    <text id="ご応募から内定まで最短で1週間程度を想定しております_" data-name="ご応募から内定まで最短で1週間程度を想定しております。" transform="translate(829.918 6977.313)" fill="#333" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="15">ご応募から内定まで最短で</tspan><tspan x="0" y="39" font-family="SegoeUI, Segoe UI">1</tspan><tspan y="39">週間程度を想定しておりま</tspan><tspan x="0" y="63">す。</tspan></text>
+  </g>
+</svg>
