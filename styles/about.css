@@ -61,7 +61,7 @@
 }
 
 .s-about-btarea {
-    width: 90%;
+    width: fit-content;
     margin-top: auto;
 }
 
@@ -114,7 +114,6 @@
     }
 
     .s-about-btarea > .s-button {
-        width: fit-content;
         margin: 3.5em auto;
     }
 

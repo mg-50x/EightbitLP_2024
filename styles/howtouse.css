@@ -6,3 +6,24 @@
     width: 100%;
     height: auto;
 }
+
+.s-how-to-use-pc {
+    display: initial;
+}
+
+.s-how-to-use-sp {
+    display: none;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-how-to-use-pc {
+        display: none;
+    }
+
+    .s-how-to-use-sp {
+        display: initial;
+    }
+
+}
