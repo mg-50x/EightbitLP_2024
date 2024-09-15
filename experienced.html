@@ -73,8 +73,9 @@
   <body>
     <!-- START Header Area -->
     <header id="header" class="s-header-hidden">
-      <nav id="header-inner" class="s-header-inner">
+      <nav id="header-inner" class="s-header-inner s-header-inner-top">
         <img src="./imgs/gen/11/header1.svg" />
+        <img src="./imgs/gen/11/header2.svg" />
         <div>
           <div class="s-header-links">
             <a href="#sec-overview">キャンペーン概要</a>
@@ -99,22 +100,22 @@
             <label for="check" class="hamburger">
               <span></span>
             </label>
-            <nav class="nav">
-              <div class="nav-inner">
-                <ul class="nav__lIst">
-                  <li class="nav__item"><a href="#sec-overview">キャンペーン概要</a></li>
-                  <li class="nav__item"><a href="#sec-about">エイトビットとは</a></li>
-                  <li class="nav__item"><a href="#sec-how-to-use">お祝い金の使い道</a></li>
-                  <li class="nav__item"><a href="#sec-jobs">募集職種</a></li>
-                  <li class="nav__item"><a href="#sec-flow">応募の流れ</a></li>
-                  <li class="nav__item"><a href="#sec-pr">エイトビットの特徴</a></li>
-                  <li class="nav__item"><a href="#sec-faq">FAQ</a></li>
-                  <li class="nav__item_buttons">
+            <nav class="s-header-hamburger-nav">
+              <div class="s-header-hamburger-nav-inner">
+                <ul class="s-header-hamburger-nav-list">
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-overview">キャンペーン概要</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-about">エイトビットとは</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-how-to-use">お祝い金の使い道</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-jobs">募集職種</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-flow">応募の流れ</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-pr">エイトビットの特徴</a></li>
+                  <li class="s-header-hamburger-nav-item"><a href="#sec-faq">FAQ</a></li>
+                  <li class="s-header-hamburger-nav-item-buttons">
                       <a href="#sec-jobs" class="s-button s-button-blue">
                         <p>自分に合う募集職種を見る！<span class="s-down-arrow"></span></p>
                       </a>
                   </li>
-                  <li class="nav__item_buttons">
+                  <li class="s-header-hamburger-nav-item-buttons">
                     <a href="https://hrmos.co/pages/eightbit20220808/jobs/1963494088175087654" class="s-button s-button-orange">
                       <p>カジュアル面談をする！<span class="s-up-arrow"></span></p>
                     </a>
@@ -132,20 +133,35 @@
     <main>
       <article>
         <section id="sec-mainview" class="s-sec-mainview">
-          <div class="s-mv-inner">
+          <div class="s-mv-inner fade-up">
+            <!-- <div class="s-mv-hamburger s-mv-sp"  style="grid-column: 5; grid-row: 1;" ><input type="checkbox" id="check"><label for="check" class="hamburger"><span></span></label></div> -->
             <div class="s-mv-table">
-              <div class="s-mv-icon fade-up" style="grid-column: 10; grid-row: 7;" ><img src='imgs/gen/1/mv1.svg' class="s-delay-time03 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 10; grid-row: 3;" ><img src='imgs/gen/1/mv2.svg' class="s-delay-time09 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 9; grid-row: 1;" ><img src='imgs/gen/1/mv3.svg' class="s-delay-time03 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 2; grid-row: 7;" ><img src='imgs/gen/1/mv4.svg' class="s-delay-time06 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 7; grid-row: 1;" ><img src='imgs/gen/1/mv5.svg' class="s-delay-time03 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 8; grid-row: 7;" ><img src='imgs/gen/1/mv6.svg' class="s-delay-time09 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 6; grid-row: 7;" ><img src='imgs/gen/1/mv7.svg' class="s-delay-time06 fade-up" /></div>
-              <div class="s-mv-icon fade-up" style="grid-column: 4; grid-row: 7;" ><img src='imgs/gen/1/mv8.svg' class="s-delay-time09 fade-up" /></div>
-              <div class="s-mv-tipicon fade-up" style="grid-column: 3 / 7; grid-row: 1;" ><img src='imgs/gen/1/mv9.svg' class="s-delay-time03 fade-up" /></div>
-              <div class="s-mv-tipicon2 fade-up" style="grid-column: 2 / 7; grid-row: 3;" ><img src='imgs/gen/1/mv10.svg' class="s-delay-time06 fade-up" /></div>
-              <div class="s-mv-tipicon3 fade-up" style="grid-column: 3 / 7; grid-row: 5;" ><img src='imgs/gen/1/mv11.svg' class="s-delay-time09 fade-up" /></div>
-              <div class="s-mv-period" style="grid-column: 6 / 10; grid-row: 2 / 4;">
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 10; grid-row: 7;" ><img src='imgs/gen/1/mv1.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 10; grid-row: 3;" ><img src='imgs/gen/1/mv2.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 9; grid-row: 1;" ><img src='imgs/gen/1/mv3.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 2; grid-row: 7;" ><img src='imgs/gen/1/mv4.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 7; grid-row: 1;" ><img src='imgs/gen/1/mv5.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 8; grid-row: 7;" ><img src='imgs/gen/1/mv6.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 6; grid-row: 7;" ><img src='imgs/gen/1/mv7.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-icon s-mv-pc" style="grid-column: 4; grid-row: 7;" ><img src='imgs/gen/1/mv8.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-tipicon s-mv-pc" style="grid-column: 3 / 7; grid-row: 1;" ><img src='imgs/gen/1/mv9.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-tipicon2 s-mv-pc" style="grid-column: 2 / 7; grid-row: 3;" ><img src='imgs/gen/1/mv10.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-tipicon3 s-mv-pc" style="grid-column: 3 / 7; grid-row: 5;" ><img src='imgs/gen/1/mv11.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-period fade-up s-mv-pc" style="grid-column: 7 / 9; grid-row: 3;">
+                <span class="s-mv-text">2024年</span><span class="s-mv-text-big">12</span><span class="s-mv-text">月</span><span class="s-mv-text-big">31</span><span class="s-mv-text">日まで</span>
+              </div>
+
+              <!-- smartphone -->
+              <div class="s-mv-tipicon s-mv-sp" style="grid-column: 2 / 6; grid-row: 1;" ><img src='imgs/gen/1/mv9.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 1; grid-row: 2;" ><img src='imgs/gen/1/mv5.svg' class="s-delay-time06 fade-up" /></div>
+              <div class="s-mv-tipicon3 s-mv-sp" style="grid-column: 3 / 6; grid-row: 2;" ><img src='imgs/gen/1/mv11.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-tipicon2 s-mv-sp" style="grid-column: 1 / 5; grid-row: 6;" ><img src='imgs/gen/1/mv10.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 2; grid-row: 7;" ><img src='imgs/gen/1/mv8.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 4; grid-row: 7;" ><img src='imgs/gen/1/mv4.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 1; grid-row: 8;" ><img src='imgs/gen/1/mv7.svg' class="s-delay-time10 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 3; grid-row: 8;" ><img src='imgs/gen/1/mv2.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-icon s-mv-sp" style="grid-column: 5; grid-row: 8;" ><img src='imgs/gen/1/mv5.svg' class="s-delay-time12 fade-up" /></div>
+              <div class="s-mv-period fade-up s-mv-sp" style="grid-column: 2 / 5; grid-row: 3;">
                 <span class="s-mv-text">2024年</span><span class="s-mv-text-big">12</span><span class="s-mv-text">月</span><span class="s-mv-text-big">31</span><span class="s-mv-text">日まで</span>
               </div>
             </div>

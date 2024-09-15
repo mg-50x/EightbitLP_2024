@@ -1,24 +1,22 @@
-const sliderHeight = $("#sec-mainview").height();
-
 // scroll
 $(function () {
     $(window).on("scroll", function () {
-        if (sliderHeight < $(this).scrollTop()) {
-            $("#header").fadeIn();
-            $("#header").removeClass("s-header-hidden");
-        } else {
-            $("#header").fadeOut(400,function(){
-                $("#header").addClass("s-header-hidden");
-            });
-        }
+        const sliderHeight = $("#sec-mainview").height();
 
         if ($("#sec-mainview").width() > 800){
-            var scrollHeight = $(document).height();
-            var scrollPosition = $(window).height() + $(window).scrollTop();
-            if ((scrollHeight - scrollPosition) / scrollHeight <= 0.001) {
-                $("#header-inner").removeClass("s-header-translucent");
-            }else{
-                $("#header-inner").addClass("s-header-translucent");
+            if (sliderHeight < $(this).scrollTop()) {
+                $("#header").fadeIn();
+                $("#header").removeClass("s-header-hidden");
+            } else {
+                $("#header").fadeOut(400,function(){
+                    $("#header").addClass("s-header-hidden");
+                });
+            }
+        } else {
+            if (sliderHeight < $(this).scrollTop()) {
+                $("#header .s-header-inner").removeClass("s-header-inner-top");
+            } else {
+                $("#header .s-header-inner").addClass("s-header-inner-top");
             }
         }
     });
