@@ -1,0 +1,187 @@
+.s-sec-faq {}
+
+.s-faq-inner {
+    width: 90vw;
+    background-color: #F5F5F5;
+    padding: 5em 10vw;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: 4vw auto 0 auto;
+}
+
+.s-faq-inner > .s-faq-header > img {
+    width: 10vw;
+}
+
+.s-faq-contents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 4vh auto;
+    padding: 0 10px;
+}
+
+.s-faq-contents .s-faq-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.s-faq-contents .s-faq-box:nth-child(even) {
+    justify-content: flex-end;
+    margin-top: 5vh;
+    margin-right: 12vw;
+}
+
+.s-faq-indent:nth-child(odd){
+    margin-left: 12vw;
+}
+
+
+.s-faq-indent:nth-child(even) {
+    margin-right: 0 !important;
+}
+
+.s-faq-contents .s-faq-box .s-faq-icon {
+    width: 8vw;
+    position: relative;
+}
+
+.s-faq-contents .s-faq-box:nth-child(odd) .s-faq-icon img {
+    width: 100%;
+    max-width: 120px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.s-faq-contents .s-faq-box:nth-child(even) .s-faq-icon img {
+    width: 100%;
+    max-width: 120px;
+    position: absolute;
+    top: -20px;
+    left: auto;
+    right: 0;
+}
+
+.s-faq-contents .s-faq-box .s-faq-bubble {
+    width: 35vw;
+    position: relative;
+    box-shadow: 0 0 0 0.3vw #333333;
+    border-radius: 12px;
+    margin: 0 min(2vw, 30px);
+}
+
+.s-bubble-tail {
+    display: block;
+    position: absolute;
+    top: -1vw;
+    left: -5.5%;
+    width: 2vw;
+    max-width: 100%;
+    height: auto;
+    fill: #FFF;
+}
+
+.s-bubble-tail.right {
+    transform: scale(-1, 1);
+    fill: #DBE8FC;
+    left: auto;
+    right: -5.4%;
+}
+
+.s-faq-contents .s-faq-box .s-faq-bubble-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 1vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
+    color: #231815;
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.s-faq-contents .s-faq-box .s-faq-bubble-inner > div {
+    margin: 0 0.8vw;
+}
+
+.s-faq-contents .s-faq-box:nth-child(even) .s-faq-bubble-inner {
+    background-color: #DBE8FC;
+}
+
+.s-faq-contents .s-faq-box:nth-child(even) {
+    margin-bottom: 7vw;
+}
+
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-faq-inner {
+        padding: 1em 1em 1em 0;
+    }
+
+    .s-faq-inner > .s-faq-header > img {
+        width: auto;
+        margin: 3em 0;
+    }
+
+    .s-faq-contents .s-faq-box .s-faq-icon {
+        width: 15vw;
+    }
+
+    .s-faq-contents .s-faq-box .s-faq-bubble {
+        width: 70%;
+        height: 100%;
+        border-radius: 5px;
+        margin: 0 4vw;
+    }
+
+    .s-faq-contents .s-faq-box .s-faq-bubble-inner {
+        height: 100%;
+        padding: 2vw;
+        font-size: small;
+        line-height: normal;
+        border-radius: 5px;
+    }
+
+    .s-faq-contents .s-faq-box:nth-child(even) {
+        margin-top: 8vw;
+        margin-right: 0;
+    }
+
+    .s-faq-indent:nth-child(odd){
+        margin-left: 0;
+    }
+
+    .s-bubble-tail {
+        top: -1vw;
+        left: -3.8vw;
+        width: 4vw;
+        max-width: 100%;
+        height: auto;
+        fill: #FFF;
+    }
+
+    .s-bubble-tail.right {
+        right: -6.6%;
+    }
+
+    .s-faq-contents .s-faq-box:nth-child(even) {
+        margin-bottom: 5em;
+    }
+
+    .s-faq-contents .s-faq-box .s-faq-bubble-inner > div {
+        margin: 0 2.5vw;
+    }
+
+}

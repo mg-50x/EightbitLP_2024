@@ -115,7 +115,7 @@ body {
 @media screen and (max-width: 800px) {
 
     .s-button {
-        width: 50vw;
+        width: 80%;
         margin-top: 5vh;
         margin-bottom: 5vh;
         padding: 1em 1em 1em 1.5em;
