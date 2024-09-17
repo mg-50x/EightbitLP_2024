@@ -130,6 +130,10 @@
         display: none;
     }
 
+    .overview-header-img{
+        width: 45vw;
+    }
+
     .overview-description-l{
         font-size: small;
     }

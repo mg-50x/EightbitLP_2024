@@ -100,6 +100,7 @@
     #tiktok-area{
         height: 85vw;
         justify-content: space-between;
+        margin-bottom: 10vw;
     }
 
     .wantedly-description{
@@ -111,7 +112,7 @@
         flex-flow: row;
         justify-content:space-between;
         margin-top: 1vw;
-        margin-bottom: 3vw;
+        margin-bottom: 10vw;
         height: 41vw;
     }
 
@@ -137,6 +138,10 @@
     .tiktok-header, .wantedly-header{
         font-size: 4.5vw;
         margin-bottom: 5vw;
+    }
+
+    .wantedly-header{
+        margin-top: 15vw;
     }
 
     .wantedly-description, .tiktok-description{
