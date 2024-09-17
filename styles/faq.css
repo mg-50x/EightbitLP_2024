@@ -3,7 +3,7 @@
 .s-faq-inner {
     width: 90vw;
     background-color: #F5F5F5;
-    padding: 5em 10vw;
+    padding: 6.3em 10vw 5em 10vw;
     align-content: center;
     align-items: center;
     justify-content: space-around;
@@ -131,7 +131,7 @@
     }
 
     .s-faq-inner > .s-faq-header > img {
-        width: auto;
+        width: 25vw;
         margin: 3em 0;
     }
 

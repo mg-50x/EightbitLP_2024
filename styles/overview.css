@@ -1,5 +1,5 @@
-.section-header-ja{
-    margin-top: 5vh;
+.s-sec-overview {
+    padding-top: 7vw;
 }
 
 #overview-wrapper{
@@ -125,6 +125,14 @@
 /* スマートフォン用 */
 @media screen and (max-width: 800px) {
     /* 画面サイズが640px以下に適用 */
+
+    .s-sec-overview {
+        padding-top: 8vh;
+    }
+
+    .section-header > img {
+        width: 45vw;
+    }
 
     #pc_man_img{
         display: none;

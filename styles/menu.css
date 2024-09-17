@@ -11,7 +11,6 @@
     background-color: #FFF37E;
     justify-content: space-around;
 }
-
 .s-nav-inner > ul > li {
     width: auto;
     height: 5.6vw;
@@ -24,6 +23,12 @@
     text-wrap: nowrap;
 }
 
+/** webkit
+_::-webkit-full-page-media, _:future, :root .s-nav-inner > ul > li {
+    height: 3.6vw;
+	padding-top: 2vw;
+}
+**/
 
 .s-nav-inner > ul > li > a > span {
     margin-left: 2.3vw;
@@ -45,14 +50,8 @@
     transition: top 0.3s ease;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:800px) {
     .s-nav-inner > ul {
         justify-content: center;
     }
-}
-@media screen and (min-width:768px) and ( max-width:1024px) {
-
-}
-@media screen and (min-width:1024px) {
-
 }

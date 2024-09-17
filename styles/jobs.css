@@ -134,7 +134,7 @@
 @media screen and (max-width: 800px) {
 
     .s-jobs-outer {
-        padding: 5vh 7vw 1vh 7vw;
+        padding: 8vh 7vw 1vh 7vw;
     }
 
     .s-jobs-inner {
@@ -152,7 +152,7 @@
     }
 
     .s-jobs-outer > img {
-        width: auto;
+        width: 25vw;
     }
 
     .s-jobs-tab-contents {

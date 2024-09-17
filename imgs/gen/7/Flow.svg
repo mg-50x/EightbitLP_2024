@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="132" height="94" viewBox="0 0 132 94">
   <g id="グループ_10025" data-name="グループ 10025" transform="translate(-654 -6676.928)">
-    <text id="Flow" transform="translate(720 6757.928)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="-65.05" y="0">Flow</tspan></text>
-    <text id="応募の流れ" transform="translate(720 6698.928)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-47.031" y="0">応募の流れ</tspan></text>
+    <text id="Flow" transform="translate(720 6757.928)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700" x="0" y="0" text-anchor="middle">Flow</text>
+    <text id="応募の流れ" transform="translate(720 6698.928)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI" x="0" y="0" text-anchor="middle">応募の流れ</text>
   </g>
 </svg>

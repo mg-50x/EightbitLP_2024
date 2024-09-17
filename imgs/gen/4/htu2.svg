@@ -16,8 +16,8 @@
       <text id="_9" data-name="?" transform="matrix(0.616, -0.788, 0.788, 0.616, 1278.801, 2685.336)" fill="#fff" font-size="280" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="0.54" y="271">?</tspan></text>
       <text id="_10" data-name="?" transform="translate(1324.603 4217.538) rotate(59)" fill="#fff" font-size="280" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="0.54" y="271">?</tspan></text>
     </g>
-    <text id="入社者に聞いたお祝い金の使い道" transform="translate(374.65 4603.635)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-136.348" y="0">入社者に聞いたお祝い金の使い道</tspan></text>
-    <text id="How_to_use_" data-name="How to use?" transform="translate(374.65 4661)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="-161.6" y="0">How to use?</tspan></text>
+    <text id="入社者に聞いたお祝い金の使い道" transform="translate(374.65 4603.635)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI" x="0" y="0" text-anchor="middle">入社者に聞いたお祝い金の使い道</text>
+    <text id="How_to_use_" data-name="How to use?" transform="translate(374.65 4661)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700" x="0" y="0" text-anchor="middle">How to use?</text>
     <ellipse id="楕円形_238" data-name="楕円形 238" cx="611" cy="691" rx="611" ry="691" transform="translate(-236 4726)" fill="#fff"/>
     <circle id="楕円形_240" data-name="楕円形 240" cx="134.5" cy="134.5" r="134.5" transform="translate(250 4812)" fill="#dbe8fc"/>
     <circle id="楕円形_239" data-name="楕円形 239" cx="134.5" cy="134.5" r="134.5" transform="translate(221.504 5636.912)" fill="#dbe8fc"/>

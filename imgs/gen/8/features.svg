@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="98" viewBox="0 0 230 98">
   <g id="グループ_10027" data-name="グループ 10027" transform="translate(-605 -7265.632)">
-    <text id="Features" transform="translate(720 7350.632)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="-114.725" y="0">Features</tspan></text>
-    <text id="エイトビットの特徴" transform="translate(720 7287.632)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-69.971" y="0">エイトビットの特徴</tspan></text>
+    <text id="Features" transform="translate(720 7350.632)" fill="#333" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700" x="0" y="0" text-anchor="middle">Features</text>
+    <text id="エイトビットの特徴" transform="translate(720 7287.632)" fill="#333" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI" x="0" y="0" text-anchor="middle">エイトビットの特徴</text>
   </g>
 </svg>

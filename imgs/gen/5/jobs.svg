@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="123" height="90" viewBox="0 0 123 90">
   <g id="グループ_10028" data-name="グループ 10028" transform="translate(-658 -4459)">
-    <text id="Jobs" transform="translate(720 4536)" fill="#fff" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700"><tspan x="-60.4" y="0">Jobs</tspan></text>
-    <text id="募集職種" transform="translate(720 4481)" fill="#fff" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="-40" y="0">募集職種</tspan></text>
+    <text id="Jobs" transform="translate(720 4536)" fill="#fff" font-size="50" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700" x="0" y="0" text-anchor="middle">Jobs</text>
+    <text id="募集職種" transform="translate(720 4481)" fill="#fff" font-size="20" font-family="YuGothicUI-Regular, Yu Gothic UI" x="0" y="0" text-anchor="middle">募集職種</text>
   </g>
 </svg>
