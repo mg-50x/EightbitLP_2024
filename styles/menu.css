@@ -8,7 +8,7 @@
     padding: 1vh 1vw;
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFF37E;
+    background-color: var(--theme2);
     justify-content: space-around;
 }
 .s-nav-inner > ul > li {

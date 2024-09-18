@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     color: #FFFFFF;
-    background-color: #0C5FE5;
+    background-color: var(--theme1);
     line-height: normal;
     padding: 1em 0;
 }

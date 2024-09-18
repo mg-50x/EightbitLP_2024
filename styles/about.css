@@ -1,6 +1,6 @@
 .s-about-outer {
     width: 100%;
-    background-color: #0C5FE5;
+    background-color: var(--theme1);
     padding: 3vw 5vw;
     box-sizing: border-box;
     user-select: none;

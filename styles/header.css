@@ -41,7 +41,7 @@ header {
 }
 
 .s-header-links > a:hover {
-    color: #0C5FE5;
+    color: var(--theme1);
 }
 
 .s-header-inexperienced-link > .s-up-arrow {
@@ -233,7 +233,7 @@ header {
         width: 80%;
         height: auto;
         padding: 3em 0;
-        background-color: #0C5FE5;
+        background-color: var(--theme1);
         border-radius: 15px;
         margin-left: auto;
         transition: all 0.5s;
