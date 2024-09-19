@@ -5,7 +5,6 @@
 .s-mv-inner {
     width: 100%;
     height: auto;
-    background-image: url('../imgs/gen/1/mv_background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 1391 / 712;
@@ -134,7 +133,6 @@ to {
         height: auto;
         max-width: initial;
         max-height: initial;
-        background-image: url('../imgs/gen/1/mv_background_sp.svg');
         aspect-ratio: 705 / 1257;
         margin: 0 auto;
         user-select: none;

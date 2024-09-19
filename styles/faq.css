@@ -90,7 +90,6 @@
 
 .s-bubble-tail.right {
     transform: scale(-1, 1);
-    fill: #DBE8FC;
     left: auto;
     right: -5.4%;
 }
@@ -112,10 +111,6 @@
 
 .s-faq-contents .s-faq-box .s-faq-bubble-inner > div {
     margin: 0 0.8vw;
-}
-
-.s-faq-contents .s-faq-box:nth-child(even) .s-faq-bubble-inner {
-    background-color: #DBE8FC;
 }
 
 .s-faq-contents .s-faq-box:nth-child(even) {

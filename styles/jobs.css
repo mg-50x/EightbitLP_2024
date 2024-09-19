@@ -12,6 +12,11 @@
     height: auto;
 }
 
+.s-jobs-sep {
+    height: 1px;
+    margin: 3vw 0;
+}
+
 .s-jobs-inner {
     width: 100%;
     color: #FFFFFF;
@@ -84,6 +89,16 @@
     animation-name: fadeIn;
     animation-fill-mode:forwards;
     animation-duration:0.5s;
+}
+
+/* dummy tab */
+.s-jobs-tab > label.s-jobs-tab-dummy {
+    opacity: 0;
+    cursor: default;
+}
+
+.s-jobs-tab > label.s-jobs-tab-dummy:hover {
+    opacity: 0;
 }
 
 /*フェードインアニメ*/

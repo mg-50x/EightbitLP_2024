@@ -7,3 +7,31 @@
     --bt1: #A02804;
     --bt2: #376F0E;
 }
+
+/* MV */
+.s-mv-inner {
+    background-image: url('../imgs/inexp/1/mv_background.svg');
+}
+
+/* Features */
+#sec-features{
+    background-color: #FCE5DB;
+}
+
+/* FAQ Bubble */
+.s-faq-contents .s-faq-box:nth-child(even) .s-faq-bubble-inner {
+    background-color: #FCE5DB;
+}
+
+.s-bubble-tail.right {
+    fill: #FCE5DB;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-mv-inner {
+        background-image: url('../imgs/inexp/1/mv_background_sp.svg');
+    }
+
+}

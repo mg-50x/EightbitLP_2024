@@ -8,3 +8,31 @@
     --bt2: #D34E00;
 
 }
+
+/* MV */
+.s-mv-inner {
+    background-image: url('../imgs/gen/1/mv_background.svg');
+}
+
+/* Features */
+#sec-features{
+    background-color: #DBE8FC;
+}
+
+/* FAQ Bubble */
+.s-faq-contents .s-faq-box:nth-child(even) .s-faq-bubble-inner {
+    background-color: #DBE8FC;
+}
+
+.s-bubble-tail.right {
+    fill: #DBE8FC;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+
+    .s-mv-inner {
+        background-image: url('../imgs/gen/1/mv_background_sp.svg');
+    }
+
+}
