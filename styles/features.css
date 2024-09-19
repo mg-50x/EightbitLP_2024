@@ -1,7 +1,6 @@
 #sec-features{
     padding-top: 7vw;
     line-height:1.4em;
-    background-color: #dbe9fd;
 }
 
 .s-sec-features-inner{
@@ -20,7 +19,7 @@
 }
 
 .tiktok-header, .wantedly-header{
-    color: blue;
+    color: var(--theme1);
     font-weight: 200;
     font-size: 2vw;
     margin-bottom: 2vw;

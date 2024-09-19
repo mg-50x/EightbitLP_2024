@@ -1,6 +1,6 @@
 .s-jobs-outer {
     width: 90vw;
-    background-color: #0D5FE5;
+    background-color: var(--theme1);
     padding: 8vw 18vw;
     box-sizing: border-box;
     border-radius: 40px;
@@ -10,6 +10,11 @@
 .s-jobs-outer > img {
     width: 8vw;
     height: auto;
+}
+
+.s-jobs-sep {
+    height: 1px;
+    margin: 3vw 0;
 }
 
 .s-jobs-inner {
@@ -36,7 +41,7 @@
     border-radius: 5px 5px 0px 0px;
     background-color: #e9f0f6;
     color: #838383;
-    border: 1px solid #0D5FE5;
+    border: 1px solid var(--theme1);
     font-size: 1.2vw;
     text-align: center;
     cursor: pointer;
@@ -68,15 +73,15 @@
     padding: 5em 1vw 5em 1vw;
     background-color: #fff;
     border-radius: 0px 0px 3px 3px;
-    color: #0D5FE5;
+    color: var(--theme1);
     opacity: 0;
 }
 
 .s-jobs-tab label:has(:checked) {
     background-color: #fff;
-    border-color: #0d5fe5 #f0f0f0 #fff;
+    border-color: var(--theme1) #f0f0f0 #fff;
     border-style: solid;
-    color: #0c5fe5;
+    color: var(--theme1);
 }
 
 .s-jobs-tab label:has(:checked) + div {
@@ -84,6 +89,16 @@
     animation-name: fadeIn;
     animation-fill-mode:forwards;
     animation-duration:0.5s;
+}
+
+/* dummy tab */
+.s-jobs-tab > label.s-jobs-tab-dummy {
+    opacity: 0;
+    cursor: default;
+}
+
+.s-jobs-tab > label.s-jobs-tab-dummy:hover {
+    opacity: 0;
 }
 
 /*フェードインアニメ*/

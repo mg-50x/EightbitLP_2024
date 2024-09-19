@@ -23,12 +23,12 @@ body {
 
 /* text */
 .s-text-blue {
-    color: #0C5FE5;
+    color: var(--theme1);
     text-decoration: none;
 }
 
 .s-text-orange {
-    color: #F4752C;
+    color: var(--theme3);
     text-decoration: none;
 }
 
@@ -104,11 +104,11 @@ body {
 }
 
 .s-button-orange {
-    box-shadow: 0.4em 0.4em 1px #D34E00;
+    box-shadow: 0.4em 0.4em 1px var(--bt2);
 }
 
 .s-button-blue {
-    box-shadow: 0.4em 0.4em 1px #043FA0;
+    box-shadow: 0.4em 0.4em 1px var(--bt1);
 }
 
 /* smartphone */
@@ -218,7 +218,7 @@ ul li {
     font-size: 16px;
     border-radius: 7px;
     text-align: center;
-    background: #FFF37E;
+    background: var(--theme2);
     user-select: none;
 }
 
@@ -228,7 +228,7 @@ ul li {
     top: -25px;
     left: 10%;
     border: 5px solid transparent;
-    border-bottom: 25px solid #FFF37E;
+    border-bottom: 25px solid var(--theme2);
 }
 
 .bubble-top p {
@@ -257,7 +257,7 @@ ul li {
         left: -3em;
         margin-top: -14px;
         border: 1em solid transparent;
-        border-right: 3em solid #FFF37E;
+        border-right: 3em solid var(--theme2);
         z-index: 1;
     }
 

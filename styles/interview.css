@@ -1,6 +1,6 @@
 .s-interview-inner {
     width: 90vw;
-    background-color: #FFF37E;
+    background-color: var(--theme2);
     padding: 8vh 10vw;
     display: flex;
     flex-direction: row;
@@ -23,11 +23,11 @@
 }
 
 .s-interview-left > .s-button:hover {
-    box-shadow: 0.1em 0.1em 1px #D34E00;
+    box-shadow: 0.1em 0.1em 1px var(--bt2);
 }
 
 .s-interview-left > H2 {
-    color: #F4752C;
+    color: var(--theme3);
 }
 
 .s-interview-right > img {
