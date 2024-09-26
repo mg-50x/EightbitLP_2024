@@ -4,4 +4,23 @@ footer {
     background-color: var(--theme1);
     line-height: normal;
     padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#corp-site{
+    /* text-decoration: none; */
+    color:yellow;
+}
+
+#corp-site:hover {
+    color:lightyellow;
+}
+
+/* smartphone */
+@media screen and (max-width: 800px) {
+    footer {
+        display: block;
+        font-size: small;
+    }
 }
