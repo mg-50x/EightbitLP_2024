@@ -12,7 +12,7 @@
     margin: 4vw auto 0 auto;
 }
 
-.s-faq-inner > .s-faq-header > img {
+.s-faq-inner>.s-faq-header>img {
     width: 10vw;
 }
 
@@ -38,7 +38,7 @@
     margin-right: 12vw;
 }
 
-.s-faq-indent:nth-child(odd){
+.s-faq-indent:nth-child(odd) {
     margin-left: 12vw;
 }
 
@@ -109,12 +109,58 @@
 }
 
 
-.s-faq-contents .s-faq-box .s-faq-bubble-inner > div {
+.s-faq-contents .s-faq-box .s-faq-bubble-inner>div {
     margin: 0 0.8vw;
 }
 
 .s-faq-contents .s-faq-box:nth-child(even) {
     margin-bottom: 7vw;
+}
+
+.readmore {
+    position: relative;
+    margin: 50px auto 0;
+    /* padding: 0 0 75px; */
+}
+
+.readmore label {
+    position: absolute;
+    display: table;
+    /* left: 50%; */
+    right: 10%;
+    bottom: 0;
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 0;
+    color: #5b94e9;
+    text-align: center;
+    border-radius: 7px;
+    /* background-color: #DBE8FC; */
+    /* transform: translateX(-50%); */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.readmore label::before {
+    content: '...続きを見る';
+}
+
+.readmore input[type="checkbox"]:checked~label::before {
+    content: '元に戻す';
+}
+
+.readmore input[type="checkbox"] {
+    display: none;
+}
+
+.readmore-content {
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+}
+
+.readmore input[type="checkbox"]:checked~.readmore-content {
+    height: auto;
 }
 
 
@@ -125,7 +171,7 @@
         padding: 1em 1em 1em 0;
     }
 
-    .s-faq-inner > .s-faq-header > img {
+    .s-faq-inner>.s-faq-header>img {
         width: 25vw;
         margin: 3em 0;
     }
@@ -154,7 +200,7 @@
         margin-right: 0;
     }
 
-    .s-faq-indent:nth-child(odd){
+    .s-faq-indent:nth-child(odd) {
         margin-left: 0;
     }
 
@@ -175,7 +221,7 @@
         margin-bottom: 5em;
     }
 
-    .s-faq-contents .s-faq-box .s-faq-bubble-inner > div {
+    .s-faq-contents .s-faq-box .s-faq-bubble-inner>div {
         margin: 0 2.5vw;
     }
 

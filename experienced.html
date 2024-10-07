@@ -70,6 +70,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   </head>
   <body>
     <!-- START Header Area -->
@@ -111,7 +112,7 @@
                   <li class="s-header-hamburger-nav-item"><a href="#sec-flow">応募の流れ</a></li>
                   <li class="s-header-hamburger-nav-item"><a href="#sec-features">エイトビットの特徴</a></li>
                   <li class="s-header-hamburger-nav-item"><a href="#sec-faq">FAQ</a></li>
-                  <li class="s-header-hamburger-nav-item"><a href="./inexperienced.html">未経験者採用はこちら</a></li>
+                  
                   <li class="s-header-hamburger-nav-item-buttons">
                       <a href="#sec-jobs" class="s-button s-button-blue">
                         <p>自分に合う募集職種を見る！<span class="s-down-arrow"></span></p>
@@ -122,6 +123,7 @@
                       <p>カジュアル面談をする！<span class="s-up-arrow"></span></p>
                     </a>
                   </li>
+                  <li class="s-header-hamburger-nav-item"><a href="./inexperienced.html" style="font-size: medium;margin-top: 1em;">未経験者採用はこちら <span class="s-up-arrow2"></span></a></li>
                 </ul>
               </div>
             </nav>
@@ -173,7 +175,7 @@
         <section id="sec-overview" class="s-sec-overview">
           <div class="section-header"><img src='imgs/gen/2/Overview.svg' /></div>
           <div id="overview-wrapper">
-            <div class="overview-bg">
+            <div class="overview-bg" data-aos="fade-up">
               <div class="inner-overview">
                 <h4 class="overview-header">エンジニア経験者の方</h4>
                 <div class="overview-description-area">
@@ -186,7 +188,7 @@
                 </div>
               </div>
             </div>
-            <div id="overview-condition1" class="overview-condition">
+            <div id="overview-condition1" class="overview-condition" data-aos="fade-up">
               <div class="inner-overview">
                 <h4 class="overview-header">支給条件</h4>
                 <div class="overview-description-area">
@@ -219,7 +221,7 @@
                 </div>
               </div>
             </div>
-            <div id="overview-condition2" class="overview-condition">
+            <div id="overview-condition2" class="overview-condition" data-aos="fade-up">
               <div class="inner-overview">
                 <h4 class="overview-header">分割支給日と支払金額</h4>
                 <div class="overview-description-area">
@@ -241,7 +243,7 @@
                   <p class="overview-caution">※社会保険料・翌年度住民税額などに影響する場合があります</p>
                 </div>
               </div>
-              <img id="pc_man_img" src="./imgs/gen/2/pc_man.svg" alt="">
+              <img id="pc_man_img" src="./imgs/gen/2/pc_man.svg" alt="" data-aos="fade-up">
             </div>
           </div>
         </section>
@@ -275,9 +277,9 @@
                 </div>
               </div>
 
-              <div class="s-about-right">
-                <img src='imgs/gen/3/about1.svg' />
-                <img src='imgs/gen/3/about2.svg' />
+              <div class="s-about-right" >
+                <img src='imgs/gen/3/about1.svg' data-aos="fade-up"/>
+                <img src='imgs/gen/3/about2.svg' data-aos="fade-up"/>
               </div>
             </div>
           </div>
@@ -586,7 +588,7 @@
               </a>
             </div>
             <div class="s-interview-right">
-              <img src="./imgs/gen/6/interview1.svg" />
+              <img src="./imgs/gen/6/interview1.svg" data-aos="fade-up"/>
             </div>
           </div>
         </section>
@@ -594,12 +596,12 @@
           <img id="flow-header" src="./imgs/gen/7/Flow.svg" alt="">
           <div class="s-sec-flow-inner">
             <div class="s-sec-flow-left">
-              <img id="flow-desc-desktop" src="./imgs/gen/7/Flow_desc.svg" alt="">
-              <img id="flow-desc-smartphone" src="./imgs/gen/7/flow_desc_sm.svg" alt="">
+              <img id="flow-desc-desktop" src="./imgs/gen/7/Flow_desc.svg" alt="" data-aos="fade-up">
+              <img id="flow-desc-smartphone" src="./imgs/gen/7/flow_desc_sm.svg" alt="" data-aos="fade-up">
             </div>
             <div class="s-sec-flow-right">
               <div class="s-flow-right">
-                <img src="./imgs/gen/7/man_n_woman.svg" alt="">
+                <img src="./imgs/gen/7/man_n_woman.svg" alt="" data-aos="fade-up">
               </div>
             </div>
           </div>
@@ -666,39 +668,47 @@
           <div class="s-faq-inner">
             <div class="s-faq-header"><img src='imgs/gen/9/faq.svg' /></div>
             <div class="s-faq-contents">
-              <div class="s-faq-box">
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq1.svg" /></div>
-                <div class="s-faq-bubble"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q1</div>エイトビットはどんな会社ですか？</div></div>
-              </div>
-              <div class="s-faq-box">
-                <div class="s-faq-bubble"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A1</div>ITエンジニアのスキルアップを目指すために研修体制を整えた会社です。<br /><br />
-                元AWSのSE、元プログラマー、元ネットワークエンジニアなど、もともとエンジニアを経験している講師が作成した未経験者、新卒向けの基礎研修カリキュラム、経験者向けの2次研修(リスキル)の環境を用意しています。<br /><br />
-                自社のITスクール環境を活かし、勉強会や懇親会など社員同士の交流も多くあります。</div></div>
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq5.svg" /></div>
-              </div>
-              <div class="s-faq-box s-faq-indent">
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq2.svg" /></div>
-                <div class="s-faq-bubble"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q2</div>このキャンペーンを始めた経緯を教えて下さい。</div></div>
-              </div>
-              <div class="s-faq-box s-faq-indent">
-                <div class="s-faq-bubble"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A2</div>ご入社頂く方に直接還元がしたいと考えております。<br />ご入社後もぜひご活躍頂ければと思います。</div></div>
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq6.svg" /></div>
-              </div>
-              <div class="s-faq-box">
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq3.svg" /></div>
-                <div class="s-faq-bubble"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q3</div>どんなプロジェクトがありますか？</div></div>
-              </div>
-              <div class="s-faq-box">
-                <div class="s-faq-bubble"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A3</div>技術に前向きな方、ベテランの方はもちろん、まだ目標が決まっていない、やりたいことが決まっていない方でも、担当営業と一緒にキャリアを考え、伴走していく(BUDDY制度)ことや、専任の講師にキャリア相談し、スキルアップできるように、社員全員が活躍できる環境づくりに取り組んでおります。</div></div>
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq5.svg" /></div>
-              </div>
-              <div class="s-faq-box s-faq-indent">
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq4.svg" /></div>
-                <div class="s-faq-bubble"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q4</div>ワークライフバランスは？</div></div>
-              </div>
-              <div class="s-faq-box s-faq-indent">
-                <div class="s-faq-bubble"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A4</div>年間休日120日以上、残業平均10時間、有給消化率85%。プロジェクトが大変なときは担当営業がお客様と調整をさせて頂き、環境改善に努めております。</div></div>
-                <div class="s-faq-icon"><img src="./imgs/gen/9/faq6.svg" /></div>
+              <div class="readmore">
+                <input id="readmore" type="checkbox">
+                <label for="readmore"></label>
+                <div class="s-faq-box">
+                  <div class="s-faq-icon"><img src="./imgs/gen/9/faq1.svg" data-aos="fade-up"/></div>
+                  <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q1</div>エイトビットはどんな会社ですか？</div></div>
+                </div>
+                <div class="s-faq-box">
+                  <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A1</div>ITエンジニアのスキルアップを目指すために研修体制を整えた会社です。<br /><br />
+                  元AWSのSE、元プログラマー、元ネットワークエンジニアなど、もともとエンジニアを経験している講師が作成した未経験者、新卒向けの基礎研修カリキュラム、経験者向けの2次研修(リスキル)の環境を用意しています。<br /><br />
+                  自社のITスクール環境を活かし、勉強会や懇親会など社員同士の交流も多くあります。</div></div>
+                  <div class="s-faq-icon" data-aos="fade-up"><img src="./imgs/gen/9/faq5.svg" data-aos="fade-up"/></div>
+                </div>
+
+                <div class="readmore-content">
+                  
+                  <div class="s-faq-box s-faq-indent" style="padding-top: 1.3em;">
+                    <div class="s-faq-icon"><img src="./imgs/gen/9/faq2.svg" data-aos="fade-up"/></div>
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q2</div>このキャンペーンを始めた経緯を教えて下さい。</div></div>
+                  </div>
+                  <div class="s-faq-box s-faq-indent">
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A2</div>ご入社頂く方に直接還元がしたいと考えております。<br />ご入社後もぜひご活躍頂ければと思います。</div></div>
+                    <div class="s-faq-icon"><img src="./imgs/gen/9/faq6.svg" data-aos="fade-up"/></div>
+                  </div>
+                  <div class="s-faq-box">
+                    <div class="s-faq-icon"><img src="./imgs/gen/9/faq3.svg" data-aos="fade-up"/></div>
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q3</div>どんなプロジェクトがありますか？</div></div>
+                  </div>
+                  <div class="s-faq-box">
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A3</div>技術に前向きな方、ベテランの方はもちろん、まだ目標が決まっていない、やりたいことが決まっていない方でも、担当営業と一緒にキャリアを考え、伴走していく(BUDDY制度)ことや、専任の講師にキャリア相談し、スキルアップできるように、社員全員が活躍できる環境づくりに取り組んでおります。</div></div>
+                    <div class="s-faq-icon" ><img src="./imgs/gen/9/faq5.svg" data-aos="fade-up"/></div>
+                  </div>
+                  <div class="s-faq-box s-faq-indent">
+                    <div class="s-faq-icon"><img src="./imgs/gen/9/faq4.svg" data-aos="fade-up"/></div>
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>Q4</div>ワークライフバランスは？</div></div>
+                  </div>
+                  <div class="s-faq-box s-faq-indent">
+                    <div class="s-faq-bubble" data-aos="fade-up"><svg class="s-bubble-tail right" viewBox="0 0 25.03 48.15"><use xlink:href="#bubble_tail"></use></svg><div class="s-faq-bubble-inner"><div>A4</div>年間休日120日以上、残業平均10時間、有給消化率85%。プロジェクトが大変なときは担当営業がお客様と調整をさせて頂き、環境改善に努めております。</div></div>
+                    <div class="s-faq-icon"><img src="./imgs/gen/9/faq6.svg" data-aos="fade-up"/></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -730,5 +740,9 @@
         </g>
       </symbol>
     </svg>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

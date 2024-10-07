@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+.another-page-link{
+    font-size: small;
+}
+
 /* arrow */
 .s-up-arrow {
     display: inline-block;
@@ -44,6 +48,20 @@ body {
     border-bottom: 0;
     box-sizing: border-box;
     transform: translateY(25%) rotate(-45deg);
+}
+
+/* arrow */
+.s-up-arrow2 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 0.5em;
+    height: 0.5em;
+    border: 0.095em solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateY(-25%) rotate(0deg);
 }
 
 /* arrow */

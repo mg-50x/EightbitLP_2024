@@ -1,5 +1,9 @@
 .s-sec-overview {
     padding-top: 7vw;
+    animation-name: fadeUpAnime;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 #overview-wrapper {
