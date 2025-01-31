@@ -4,11 +4,8 @@ $(function () {
     // const sliderHeight = $("#sec-mainview").height();
     const sliderHeight = $("#sec-nav1").height();
 
-    console.log(sliderHeight);
-
     // if ($("#sec-mainview").width() > 800) {
     if ($("#sec-nav1").width() > 800) {
-      console.log($(this).scrollTop());
       if (sliderHeight < $(this).scrollTop()) {
         $("#header").fadeIn();
         $("#header").removeClass("s-header-hidden");
